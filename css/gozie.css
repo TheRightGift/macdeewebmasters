@@ -35,9 +35,7 @@ html, body {
 nav {
     background-color: #1849EF;
 }
-nav .brand-logo {
-    padding-left: 2vw;
-}
+
 .smlIcon {
     font-size: small;
     font-weight: 800;
@@ -418,9 +416,8 @@ ul.experience li span.line-left:before, ul.experience li span.line-left:after, u
     padding-top: 0px;
 }
 
-/*About Me*/
-@media print {
-    .navbar-fixed, #contact, .page-footer {
-        display: none;
+@media only screen and (max-width: 600px) {
+    nav .brand-logo.center {
+        font-size: 1.3rem;
     }
 }
