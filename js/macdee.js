@@ -25,7 +25,7 @@ $('.moreLess').on('click', function(e){
             $('#'+section+' .moreLess').html('<div class="collapsible-header centr">See Less</div>');
         } else if(hasHide == false){
             $('#'+section+' .contentToggle').removeClass('show').addClass('hide');
-            $('#'+section+' .moreLess').html('<div class="collapsible-header centr">27 More</div>');
+            $('#'+section+' .moreLess').html('<div class="collapsible-header centr">23 More</div>');
         }
     }
 })
